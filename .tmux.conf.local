@@ -478,3 +478,4 @@ tmux_conf_uninstall_plugins_on_reload=true
 # # /!\ do not remove the previous line
 # #     do not write below this line
 bind y run-shell "~/.tmux/scripts/copy-last-output.sh"
+set -g set-clipboard on
